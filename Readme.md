@@ -1,20 +1,13 @@
-# Pneumonia Detection web app using Streamlit
+# Movie Recommender System web app using Streamlit
 
-## This project contains 4 main files each doing a different task. They are:
-  * `Pneumonia Detection using CNN.ipynb`
-    * Used to create train and evaluate a CNN model for detecting Pnuemonia. The dataset used to achieve this is 'Chest_Xray' dataset.
-      The Model's performance and evaluation can be all figured from here
-  * `Loading Pneum Det.ipynb`
-    * Used to load the model which can be later verified and used separately, sparing us from the hectic training process of a model everytime it needs to be used
-  * `my_model.h5`
-    * Contains the saved CNN Model to be used
-  * `main.py`
-    * The streamlit web app coded which is used to take user X-Ray image input and predict the respective outcome.
+## To run this app:
+  * Clone this repo
+  * Download the similarity index file from : "". This is a .pkl file
+  * Put all the files together
     
-## To run the project:
   * Pip install streamlit
-  * use a python IDE of your choice (I used Spyder) and run main.py
-  * from your terminal/command prompt, got to your directory containing *main.py* and type **streamlit run main.py** 
+  * use a python IDE of your choice (I used Spyder) and run app.py
+  * from your terminal **streamlit run main.py** 
   * Localhost would be opened and use as per instructed on the webpage
   
- ## The dataset `chext_xray` used for training can be downloaded from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+ ## The dataset is the famous TMDB movie dataset.
