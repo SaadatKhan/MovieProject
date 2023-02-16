@@ -7,7 +7,7 @@
     
   * run the command `pip install streamlit`
   * use a python IDE of your choice (I used Spyder) and run app.py
-  * from your terminal run the command: **streamlit run main.py** 
+  * from your terminal run the command: `streamlit run main.py`
   * Localhost would be opened and use as per instructed on the webpage
   
  ## The dataset is the famous TMDB movie dataset.
